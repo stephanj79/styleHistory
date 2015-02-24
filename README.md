@@ -1,10 +1,10 @@
 
 # stylehistory.js
-> Erstellt einen Chronologischen Ablauf von Ereignissen
-> Creates a chronological sequence of events
+- Creates a chronological sequence of events like Curriculum Vitae / History
+- Erstellt einen Chronologischen Ablauf von Ereignissen wie einen Lebenslauf/Historie
 
 ## Getting Started
-This plugin is developed with Jquery V.`jquery-1.11.2`
+This plugin is developed with `jquery-1.11.2`
 > Test it with younger Versions of jquery!!!
 
 Add to your HTML
