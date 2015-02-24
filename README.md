@@ -15,6 +15,7 @@ Add to your HTML
 
 #How to use:
 ```html
+<head>
 <script>
         $(document).ready(function(){
             $('.style-history').stylehistory({
@@ -22,6 +23,97 @@ Add to your HTML
             });
         });
 </script>
+</head>
+
+<body>
+<div class="style-history">
+    <div class="style-history-head">
+        <h1>Über 15 Jahre Erfahrung in der Branche</h1>
+
+        <h1>Stephan Jäger</h1>
+
+        <h1>Historie:</h1>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">1979</div>
+        <div class="style-history-item-month">07</div>
+        <div class="style-history-item-text">Geburt</div>
+        <div class="style-history-item-text">Krankenhaus verlassen</div>
+        <div class="style-history-item-month">12</div>
+        <div class="style-history-item-text">Erstes Weihnachten</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">1986</div>
+        <div class="style-history-item-month">07</div>
+        <div class="style-history-item-text">Schulbeginn</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">1990</div>
+        <div class="style-history-item-text">Besuch des Otto-Hahn-Gymnasium
+        </div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">1997</div>
+        <div class="style-history-item-text">Ausbildung zum Kommunikationselektroniker
+        </div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2001</div>
+        <div class="style-history-item-month">07</div>
+        <div class="style-history-item-text">Abschluß der Berufausbildung</div>
+        <div class="style-history-item-month">08</div>
+        <div class="style-history-item-text">Angestellt bei Fa. E.I.M.G. in Duisburg</div>
+        <div class="style-history-item-month">09</div>
+        <div class="style-history-item-text">Angestellt bei Fa. SPS in Oberhausen</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2002</div>
+        <div class="style-history-item-month">01</div>
+        <div class="style-history-item-text">Angestellt bei der Fa. Protime</div>
+        <div class="style-history-item-month">04</div>
+        <div class="style-history-item-text">Unterbrechung des Arbeitsvertrags Wehrdienst in Wesel, bei der 2.RakArtBat 150</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2003</div>
+        <div class="style-history-item-month">01</div>
+        <div class="style-history-item-text">Angestellt bei der Fa. Protime</div>
+        <div class="style-history-item-month">04</div>
+        <div class="style-history-item-text">Angestellt bei der Fa. Subitec in Duisburg</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2006</div>
+        <div class="style-history-item-month">12</div>
+        <div class="style-history-item-text">Angestellt bei Fa. MTC Medizintechnik in Dorsten</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2008</div>
+        <div class="style-history-item-month">05</div>
+        <div class="style-history-item-text">Projektleiter/Software Entwickler Bei Rodata GmbH / AutoID</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2011</div>
+        <div class="style-history-item-month">07</div>
+        <div class="style-history-item-text">Anwendungssoftware Entwickler Bei Tricon Consulting</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2012</div>
+        <div class="style-history-item-month">08</div>
+        <div class="style-history-item-text">Webdesign Bei Publitec Gmbh</div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2013</div>
+        <div class="style-history-item-month">05</div>
+        <div class="style-history-item-text">Anwendungssoftware Entwickler Bei Pohl Steuerbüro
+        </div>
+    </div>
+    <div class="style-history-item">
+        <div class="style-history-item-year">2014</div>
+        <div class="style-history-item-month">11</div>
+        <div class="style-history-item-text">System-/Anwendungssoftware-Entwickler Stephan Jäger
+        </div>
+    </div>
+</div>
+</body>
 ```
 
 ## The "exporter" task
