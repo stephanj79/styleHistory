@@ -3,7 +3,7 @@
 - Creates a chronological sequence of events like Curriculum Vitae / History
 - Erstellt einen Chronologischen Ablauf von Ereignissen wie einen Lebenslauf/Historie
 
-#Hier gehts zur [Live Demo](http://jsfiddle.net/52er4ncg/9/)
+#Hier gehts zur [Live Demo](http://jsfiddle.net/stephanj79/g7631mhf/)
 
 ## Getting Started
 This plugin is developed with `jquery-1.11.2`
@@ -120,8 +120,7 @@ Add to your HTML
 </body>
 ```
 
-### Overview
-
+### Options
 ```js
  $('.style-history').stylehistory({
     chronologically:true
@@ -131,8 +130,6 @@ Add to your HTML
     ,marker:'dot'
 });
 ```
-
-### Options
 
 #### chronologically
 Type: `Boolean`
