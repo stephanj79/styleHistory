@@ -19,7 +19,10 @@ Add to your HTML
 <script>
         $(document).ready(function(){
             $('.style-history').stylehistory({
-                chronologically:true,reverse:false,itemCount:0,marker:'arrow'
+                chronologically:true
+                ,reverse:false
+                ,itemCount:0
+                ,marker:'arrow'
             });
         });
 </script>
