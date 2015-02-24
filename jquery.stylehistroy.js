@@ -11,7 +11,7 @@ if(typeof jQuery==='undefined'){
 +function($){
     'use strict';
     var version=$.fn.jquery.split(' ')[0].split('.');
-    if((version[0]<1&&version[1]<11||(version[0]==1&&version[1]==11&&version[2]<3))){
+    if((version[0]<1&&version[1]<11||(version[0]==1&&version[1]==11&&version[2]<2))){
         throw new Error('stylehistory.js requires jQuery version 1.11.2 or higher')
     }
 }(jQuery);
