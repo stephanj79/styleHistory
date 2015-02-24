@@ -15,7 +15,6 @@ if(typeof jQuery==='undefined'){
         throw new Error('stylehistory.js requires jQuery version 1.11.2 or higher')
     }
 }(jQuery);
-
 jQuery.fn.stylehistory=function(options){
     $(window).resize(function(){
         var cW=$('.'+sh).width;
@@ -24,7 +23,7 @@ jQuery.fn.stylehistory=function(options){
         }
     });
     var v=jQuery.extend({
-        chronologically:true,reverse:false,itemCount:0,marker:'dot'
+        chronologically:true,reverseYear:false,reverseMonth:false,itemCount:0,marker:'dot'
     },options);
     var sh="style-history";
     var shi="style-history-item";
@@ -120,11 +119,10 @@ jQuery.fn.stylehistory=function(options){
             po=dot;
         }
         else if(v.marker=='arrow'){
-            if(!v.reverse){
+            if(!v.reverseMonth){
                 po=aup;
             }
-            else
-            {
+            else{
                 po=ado;
             }
         }
@@ -174,10 +172,10 @@ jQuery.fn.stylehistory=function(options){
         return a-b;
     }
 
-    function cA(){
+    function cY(){
         iA.sort(function(a,b){
             var r;
-            if(v.reverse){
+            if(v.reverseYear){
                 r=sf(parseInt(a.y),parseInt(b.y));
             }
             else{
@@ -187,12 +185,12 @@ jQuery.fn.stylehistory=function(options){
         });
     }
 
-    function cY(){
+    function cM(){
         $.each(iA,function(i,d){
             if(d.m.length>1){
                 d.m.sort(function(a,b){
                     var r;
-                    if(v.reverse){
+                    if(v.reverseMonth){
                         r=sf(parseInt(a.m),parseInt(b.m));
                     }
                     else{
@@ -217,8 +215,8 @@ jQuery.fn.stylehistory=function(options){
         if($(this).length>0){
             init();
             if(v.chronologically){
+                cM();
                 cY();
-                cA();
             }
             cV();
             hOV();
