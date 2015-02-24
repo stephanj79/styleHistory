@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephanj79/"
+    "url": "https://github.com/stephanj79/styleHistory"
+  },
+  "bugs": {
+    "url": "https://github.com/stephanj79/styleHistory/issues"
   },
   "keywords": [
     "jquery-plugin"

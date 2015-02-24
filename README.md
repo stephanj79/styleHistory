@@ -117,74 +117,42 @@ Add to your HTML
 ## The "exporter" task
 
 ### Overview
-In your project's Gruntfile, add a section named `exporter` to the data object passed into `grunt.initConfig()`.
 
 ```js
-grunt.initConfig({
-  exporter: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
+ $('.style-history').stylehistory({
+    chronologically:true,
+    reverse:false,
+    itemCount:0,
+    marker:'arrow'
 });
 ```
 
 ### Options
 
-#### options.silent
+#### chronologically
 Type: `Boolean`
 Default value: `true`
 
-If 'false' output in console
+- Sort Array (1. by Year, 2. by Month) - Sortiert die Einträge (1. Jahre, 2. Monate)
 
-#### options.banner
+#### reverse
+Type: `Boolean`
+Default value: `false`
+
+- Reverse the events - Kehrt die Sortierung der Einträge um
+
+#### itemCount
+Type: `Integer`
+Default value: `0`
+
+- Itemscount to Show > 0 == all events will show
+- Die Anzahl der angezeigten Ereignisse > 0 == Alle Elemente werden angezeigt
+
+#### marker
 Type: `String`
-Default value: ``
+Default value: `dot`
 
-Banner for your files
-
-
-#### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing.html` file has the content-tag the content of this tags will be written to file
-
-```js
-grunt.initConfig({
-     exporter: {
-       dist: {
-         options: {
-           silent: true,
-           banner: "/*\n * Export from\n * grunt-exporter\n * https://www.npmjs.com/package/grunt-exporter\n * https://github.com/stephanj79/grunt-exporter\n */\n\n"
-         },
-         files: {
-           src: ['test/fixtures/testing.html']
-         }
-       }
-     }
-});
-```
-
-#### Custom Options
-Script search in 'test/fixtures/testing.html' and in all but only *.html and *.js files in 'test/expected/'
-You can use css file or jade as well...
-
-
-```js
-grunt.initConfig({
-  exporter: {
-  dist:{
-      options: {
-        silent: false,
-        banner: "here my text..."
-    },
-    files: {
-      src: ['test/fixtures/testing.html', 'test/expected/**/*.html', '/test/expected/**/*.js']
-    }
-  },
-});
-```
+- 'arrow' or 'dot' as yearmarker - Pfeil oder Punkte als Jahresmarker
 
 
 ### Usage in File
