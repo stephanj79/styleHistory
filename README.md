@@ -133,7 +133,8 @@ Add to your HTML
 Type: `Boolean`
 Default value: `true`
 
-- Sort Array (1. by Year, 2. by Month) - Sortiert die Einträge (1. Jahre, 2. Monate)
+- Sort Array (1. by Year, 2. by Month)
+- Sortiert die Einträge (1. Jahre, 2. Monate)
 
 #### reverse
 Type: `Boolean`
