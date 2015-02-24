@@ -1,0 +1,95 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300");
+
+.style-history {
+  font-family: 'Open Sans', sans-serif;
+  margin: 25px;
+
+  .dot {
+    border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    width: 20px;
+    height: 20px;
+    background: black;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .arrow {
+    border: 5px solid #444;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 45px;
+    width: 1px;
+    &.down{
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    &.up{
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+}
+
+.style-history-head {
+  margin: 0 auto;
+  & > h1:first-child {
+    font-size: 200% !important;
+    & ~ h1 {
+      margin: 0 auto;
+      font-size: 85% !important;
+    }
+  }
+}
+
+div {
+  margin: 0;
+}
+
+.style-history-inner-item-year {
+  margin-right: 30px;
+  margin-top: -30px;
+
+}
+
+.style-history-inner-item-year + div {
+  margin-left: 10px;
+}
+
+.style-history-inner-item-year + div > div {
+  margin-left: 40px;
+  border-left: 1px solid #000000;
+  & > div {
+    margin-left: 10px;
+  }
+}
+
+.septor + div {
+  margin-left: 80px;
+}
+
+.style-history-inner-item-month-inner-month::after {
+  margin-left: 10px;
+}
+
+.style-history-inner-item-month-inner-month {
+  float: left;
+  margin-left: -35px;
+  & > div {
+    margin-left: 10px;
+  }
+}
+
+.style-history-inner-item-month-inner-month ~ div {
+
+}
+
+.style-history-inner-item-text-inner {
+  margin-left: 20px;
+}
+

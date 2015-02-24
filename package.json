@@ -1,0 +1,18 @@
+{
+  "name": "stylehistory",
+  "version": "1.0.0",
+  "description": "Creates a chronological sequence of events - Erstellt einen Chronologischen Ablauf von Ereignissen",
+  "main": "jquery-1.11.2.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephanj79/"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "author": "Stephan Jäger",
+  "license": "MIT"
+}
