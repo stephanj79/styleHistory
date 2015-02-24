@@ -3,7 +3,7 @@
 - Creates a chronological sequence of events like Curriculum Vitae / History
 - Erstellt einen Chronologischen Ablauf von Ereignissen wie einen Lebenslauf/Historie
 
-[Live Demo](http://jsfiddle.net/52er4ncg/8/)
+[Live Demo](http://jsfiddle.net/52er4ncg/9/)
 
 ## Getting Started
 This plugin is developed with `jquery-1.11.2`
