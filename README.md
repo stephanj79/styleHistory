@@ -1,22 +1,27 @@
 
 # stylehistory.js
-
-> Creates a chronological sequence of events - Erstellt einen Chronologischen Ablauf von Ereignissen
+> Erstellt einen Chronologischen Ablauf von Ereignissen
+> Creates a chronological sequence of events
 
 ## Getting Started
-This plugin requires Jquery `jquery-1.11.2`
+This plugin is developed with Jquery V.`jquery-1.11.2`
 > Test it with younger Versions of jquery!!!
 
-```js
-grunt.loadNpmTasks('grunt-exporter');
+Add to your HTML
+```html
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
 #How to use:
 ```html
-           X=type(css/less/js...)   path/to/outputfile.
-<!--(start-X-export includes/ScrollTop.X)--> // Starttag
-  //Content here will be copy
-<!--(end-X-export)-->   // Endtag
+<script>
+        $(document).ready(function(){
+            $('.style-history').stylehistory({
+                chronologically:true,reverse:false,itemCount:0,marker:'arrow'
+            });
+        });
+</script>
 ```
 
 ## The "exporter" task

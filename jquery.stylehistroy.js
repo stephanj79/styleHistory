@@ -5,6 +5,17 @@
  ** Copyright (c) 2015 Stephan Jäger
  ** Available under the MIT license
  */
+if(typeof jQuery==='undefined'){
+    throw new Error('stylehistory.js requires jQuery')
+}
++function($){
+    'use strict';
+    var version=$.fn.jquery.split(' ')[0].split('.');
+    if((version[0]<1&&version[1]<11||(version[0]==1&&version[1]==11&&version[2]<3))){
+        throw new Error('stylehistory.js requires jQuery version 1.11.2 or higher')
+    }
+}(jQuery);
+
 jQuery.fn.stylehistory=function(options){
     $(window).resize(function(){
         var cW=$('.'+sh).width;
@@ -190,7 +201,7 @@ jQuery.fn.stylehistory=function(options){
                     return r;
                 });
             }
-        })
+        });
         iA.sort(function(a,b){
             var r;
             r=sf(parseInt(a.y),parseInt(b.y));
