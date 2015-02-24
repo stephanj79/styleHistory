@@ -4,12 +4,13 @@
 .style-history {
  font-family: 'Open Sans', sans-serif;
  margin: 25px;
+ padding: 10px;
 }
 .style-history-head {
  margin: 0 auto;
- & > h1:first-child {
+ & > h1:first-child, & > h2:first-child, & > h3:first-child, & > h4:first-child, & > h5:first-child {
   font-size: 200% !important;
-  & ~ h1 {
+  & ~ h1, & ~ h2, & ~ h3, & ~ h4, & ~ h5 {
    margin: 0 auto;
    font-size: 85% !important;
   }
@@ -32,9 +33,7 @@
 .septor + div {
  margin-left: 80px;
 }
-.style-history-inner-item-month-inner-month::after {
- margin-left: 10px;
-}
+
 .style-history-inner-item-month-inner-month {
  float: left;
  margin-left: -35px;

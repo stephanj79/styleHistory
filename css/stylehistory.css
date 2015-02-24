@@ -32,14 +32,45 @@
 .style-history {
   font-family: 'Open Sans', sans-serif;
   margin: 25px;
+    padding: 10px;
 }
 .style-history-head {
   margin: 0 auto;
 }
-.style-history-head > h1:first-child {
+
+.style-history-head > h1:first-child,
+.style-history-head > h2:first-child,
+.style-history-head > h3:first-child,
+.style-history-head > h4:first-child,
+.style-history-head > h5:first-child {
   font-size: 200% !important;
 }
-.style-history-head > h1:first-child ~ h1 {
+
+.style-history-head > h1:first-child ~ h1,
+.style-history-head > h2:first-child ~ h1,
+.style-history-head > h3:first-child ~ h1,
+.style-history-head > h4:first-child ~ h1,
+.style-history-head > h5:first-child ~ h1,
+.style-history-head > h1:first-child ~ h2,
+.style-history-head > h2:first-child ~ h2,
+.style-history-head > h3:first-child ~ h2,
+.style-history-head > h4:first-child ~ h2,
+.style-history-head > h5:first-child ~ h2,
+.style-history-head > h1:first-child ~ h3,
+.style-history-head > h2:first-child ~ h3,
+.style-history-head > h3:first-child ~ h3,
+.style-history-head > h4:first-child ~ h3,
+.style-history-head > h5:first-child ~ h3,
+.style-history-head > h1:first-child ~ h4,
+.style-history-head > h2:first-child ~ h4,
+.style-history-head > h3:first-child ~ h4,
+.style-history-head > h4:first-child ~ h4,
+.style-history-head > h5:first-child ~ h4,
+.style-history-head > h1:first-child ~ h5,
+.style-history-head > h2:first-child ~ h5,
+.style-history-head > h3:first-child ~ h5,
+.style-history-head > h4:first-child ~ h5,
+.style-history-head > h5:first-child ~ h5 {
   margin: 0 auto;
   font-size: 85% !important;
 }
@@ -59,9 +90,6 @@
 }
 .septor + div {
   margin-left: 80px;
-}
-.style-history-inner-item-month-inner-month::after {
-  margin-left: 10px;
 }
 .style-history-inner-item-month-inner-month {
   float: left;
