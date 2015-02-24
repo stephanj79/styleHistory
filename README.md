@@ -20,9 +20,10 @@ Add to your HTML
         $(document).ready(function(){
             $('.style-history').stylehistory({
                 chronologically:true
-                ,reverse:false
+                ,reverseYear:false
+                ,reverseMonth:false
                 ,itemCount:0
-                ,marker:'arrow'
+                ,marker:'dot'
             });
         });
 </script>
@@ -117,16 +118,15 @@ Add to your HTML
 </body>
 ```
 
-## The "exporter" task
-
 ### Overview
 
 ```js
  $('.style-history').stylehistory({
-    chronologically:true,
-    reverse:false,
-    itemCount:0,
-    marker:'arrow'
+    chronologically:true
+    ,reverseYear:false
+    ,reverseMonth:false
+    ,itemCount:0
+    ,marker:'dot'
 });
 ```
 
@@ -139,19 +139,27 @@ Default value: `true`
 - Sort Array (1. by Year, 2. by Month)
 - Sortiert die Einträge (1. Jahre, 2. Monate)
 
-#### reverse
+#### reverseYear
 Type: `Boolean`
 Default value: `false`
 
-- Reverse the events
-- Kehrt die Sortierung der Einträge um
+- Turn sorting years
+- Sortierung der Jahre umdrehen
+
+#### reverseMonth
+Type: `Boolean`
+Default value: `false`
+
+- Turn sorting months
+- Sortierung der Monate umdrehen
+
 
 #### itemCount
 Type: `Integer`
 Default value: `0`
 
-- Itemscount to Show > 0 == all events will show
-- Die Anzahl der angezeigten Ereignisse > 0 == Alle Elemente werden angezeigt
+- Itemscount to Show (0 == all events will show)
+- Die Anzahl der angezeigten Ereignisse (0 == Alle Elemente werden angezeigt)
 
 #### marker
 Type: `String`
@@ -162,8 +170,4 @@ Default value: `dot`
 
 
 ### Release History
-* 1.0.0 **Final Release**
-
-### INFO
-* **If there a 2 files export to one the first export will be override!!!**
-* **If there a 2 export tags in one file with the same destination it will be merged!!!**
+* 1.0.0 Final Release
