@@ -139,7 +139,8 @@ Default value: `true`
 Type: `Boolean`
 Default value: `false`
 
-- Reverse the events - Kehrt die Sortierung der Einträge um
+- Reverse the events
+- Kehrt die Sortierung der Einträge um
 
 #### itemCount
 Type: `Integer`
@@ -152,7 +153,8 @@ Default value: `0`
 Type: `String`
 Default value: `dot`
 
-- 'arrow' or 'dot' as yearmarker - Pfeil oder Punkte als Jahresmarker
+- `arrow` or `dot` as yearmarker
+- Pfeil oder Punkte als Jahresmarker
 
 
 ### Usage in File
