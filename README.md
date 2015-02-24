@@ -29,9 +29,7 @@ Add to your HTML
 <div class="style-history">
     <div class="style-history-head">
         <h1>Über 15 Jahre Erfahrung in der Branche</h1>
-
         <h1>Stephan Jäger</h1>
-
         <h1>Historie:</h1>
     </div>
     <div class="style-history-item">
