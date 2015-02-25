@@ -170,6 +170,7 @@ Default value: `dot`
 
 
 ### Release History
-* 1.0.2 Minified 
+* 1.0.3 Minified fixed
+* 1.0.2 Minified
 * 1.0.1 Bugfix
 * 1.0.0 Final Release
