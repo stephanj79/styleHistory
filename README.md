@@ -169,4 +169,5 @@ Default value: `dot`
 
 
 ### Release History
+* 1.0.1 Bugfix
 * 1.0.0 Final Release
