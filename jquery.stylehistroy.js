@@ -1,9 +1,14 @@
-/* stylehistory.js v.0.0.1
+/* stylehistory.js v.1.0.1
  ** http://stephanjaeger-public.sharepoint.com
  ** stephan@stephanjaeger.onmicrosoft.com
+ ** https://github.com/stephanj79/styleHistory
+ ** https://www.npmjs.com/package/stylehistory
+ ** Live-demo: http://jsfiddle.net/stephanj79/g7631mhf/
+ **
  **
  ** Copyright (c) 2015 Stephan Jäger
  ** Available under the MIT license
+ ** https://github.com/stephanj79/styleHistory/blob/master/LICENSE-MIT
  */
 if(typeof jQuery==='undefined'){
     throw new Error('stylehistory.js requires jQuery')
