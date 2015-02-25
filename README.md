@@ -11,6 +11,9 @@ This plugin is developed with `jquery-1.11.2`
 
 Add to your HTML
 ```html
+
+<link rel="stylesheet" href="css/stylehistory.css">
+
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="jquery.stylehistory.min.js"></script>
