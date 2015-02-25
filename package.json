@@ -29,5 +29,8 @@
       "type": "MIT",
       "url": "https://github.com/stephanj79/styleHistory/blob/master/LICENSE-MIT"
     }
-  ]
+  ],
+  "devDependencies": {
+    "grunt-contrib-uglify": "^0.8.0"
+  }
 }
