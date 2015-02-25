@@ -1,4 +1,4 @@
-/* stylehistory.js v.1.0.1
+/* stylehistory.js v.1.0.2
  ** http://stephanjaeger-public.sharepoint.com
  ** stephan@stephanjaeger.onmicrosoft.com
  ** https://github.com/stephanj79/styleHistory
