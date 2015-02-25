@@ -3,7 +3,7 @@
 - Creates a chronological sequence of events like Curriculum Vitae / History
 - Erstellt einen Chronologischen Ablauf von Ereignissen wie einen Lebenslauf/Historie
 
-#Hier gehts zur [Live Demo](http://jsfiddle.net/stephanj79/g7631mhf/)
+# Hier gehts zur [Live Demo](http://jsfiddle.net/stephanj79/g7631mhf/)
 
 ## Getting Started
 This plugin is developed with `jquery-1.11.2`
@@ -166,7 +166,7 @@ Type: `String`
 Default value: `dot`
 
 - `arrow` or `dot` as yearmarker
-- Pfeil oder Punkte als Jahresmarker
+- `Pfeil` oder `Punkte` als Jahresmarker
 
 
 ### Release History
