@@ -7,7 +7,7 @@
 
 ## Getting Started
 This plugin is developed with `jquery-1.11.2`
-> Test it with younger Versions of jquery!!!
+> Test it with other Versions!!!
 
 Add to your HTML
 ```html

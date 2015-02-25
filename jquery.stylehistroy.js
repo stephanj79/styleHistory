@@ -119,7 +119,7 @@ jQuery.fn.stylehistory=function(options){
             po=dot;
         }
         else if(v.marker=='arrow'){
-            if(!v.reverseMonth){
+            if(!v.reverseYear){
                 po=aup;
             }
             else{
