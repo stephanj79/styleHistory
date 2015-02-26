@@ -1,0 +1,15 @@
+{
+  "config": {
+    "banner": "/* <%= pkg.name %> v.<%= pkg.version %>\n** http://stephanjaeger-public.sharepoint.com\n** stephan@stephanjaeger.onmicrosoft.com\n** https://github.com/stephanj79/styleHistory\n** https://www.npmjs.com/package/stylehistory\n** Live-demo: http://jsfiddle.net/stephanj79/g7631mhf/\n** Copyright (c) <%= grunt.template.today('yyyy') %> <%= pkg.author %>\n** Available under the MIT license\n** https://github.com/stephanj79/styleHistory/blob/master/LICENSE-MIT\n*/\n",
+    "autoprefixerBrowsers": [
+      "Android 2.3",
+      "Android >= 4",
+      "Chrome >= 20",
+      "Firefox >= 24",
+      "Explorer >= 8",
+      "iOS >= 6",
+      "Opera >= 12",
+      "Safari >= 6"
+    ]
+  }
+}

@@ -32,12 +32,11 @@
 .style-history {
   font-family: 'Open Sans', sans-serif;
   margin: 25px;
-    padding: 10px;
+  padding: 10px;
 }
 .style-history-head {
   margin: 0 auto;
 }
-
 .style-history-head > h1:first-child,
 .style-history-head > h2:first-child,
 .style-history-head > h3:first-child,
@@ -45,7 +44,6 @@
 .style-history-head > h5:first-child {
   font-size: 200% !important;
 }
-
 .style-history-head > h1:first-child ~ h1,
 .style-history-head > h2:first-child ~ h1,
 .style-history-head > h3:first-child ~ h1,
